@@ -2,7 +2,8 @@
 **Windows Privilege Escalation Awesome Script – Python Version**  
 
 **Original Author:** [carlospolop](https://github.com/carlospolop/PEASS-ng)
-**Python Port:** [Your Name / Repository] 
+
+**Python Port:** [ilousha06 / Repository] 
 
 ## Table of Contents
 
