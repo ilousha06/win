@@ -1,5 +1,7 @@
 # WinPEAS-py
-````markdown
+**Windows Privilege Escalation Awesome Script – Python Version**  
+
+**Original Author:** [carlospolop](https://github.com/carlospolop/PEASS-ng)
 
 ## Table of Contents
 
@@ -23,6 +25,7 @@
 11. [Disclaimer](#disclaimer)  
 
 ---
+
 
 ## Overview
 
