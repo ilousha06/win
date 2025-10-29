@@ -3,7 +3,7 @@
 
 **Original Author:** [carlospolop](https://github.com/carlospolop/PEASS-ng)
 
-**Python Port:** [ilousha06 / Repository] 
+
 
 ## Table of Contents
 
