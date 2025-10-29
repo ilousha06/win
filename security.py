@@ -1,4 +1,3 @@
-# win_audit.py
 import os
 import subprocess
 import shutil
@@ -24,9 +23,7 @@ def scan():
     part_AppCMD()
     part_RegFilesCredentials()
 
-# -----------------------
-# Helper: run command
-# -----------------------
+ 
 def run_cmd(cmd, capture=False):
     """
     Execute a shell command (Windows style).
@@ -48,9 +45,7 @@ def run_cmd(cmd, capture=False):
         return ("", 1) if capture else 1
 
 
-# -----------------------
-# Utilities filesystem / search
-# -----------------------
+ 
 def find_files_in_roots(patterns, roots, max_workers=4):
     """Cherche récursivement les noms exacts (patterns: list of str) sous chaque root. Retourne generator de Path."""
     def scan(root):
@@ -74,9 +69,6 @@ def find_files_in_roots(patterns, roots, max_workers=4):
     #            yield p
 
 
-# -----------------------
-# Functions converted
-# -----------------------
 
 def part_AVSettings():
     """Equivalent de :AVSettings — liste antivirus + exclusions Defender."""
